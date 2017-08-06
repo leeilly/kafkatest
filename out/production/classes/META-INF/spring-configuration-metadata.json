@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.illy.kafkatest.domain.TableMappingProperties",
+      "name": "tablemapping",
+      "type": "com.illy.kafkatest.domain.TableMappingProperties"
+    },
+    {
+      "sourceType": "com.illy.kafkatest.domain.TableMappingProperties",
+      "name": "tablemapping.columns",
+      "sourceMethod": "getColumns()",
+      "type": "java.util.List"
+    }
+  ],
+  "properties": []
+}

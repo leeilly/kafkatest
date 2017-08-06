@@ -1,0 +1,34 @@
+server:
+  port: 8011
+
+
+kafka.bootstrap-servers: localhost:9092
+kafka.consumer.group-id: test
+kafka.topic: test
+
+tablemapping:
+  table:
+    org: org_tbl
+    target: target_tbl
+
+  columns:
+  -
+    org: org_col1
+    target: target_col1
+  -
+    org: org_col2
+    target: target_col2
+
+
+logging:
+  level:
+    root: INFO
+
+---
+
+spring:
+  profiles: development
+
+logging:
+  level:
+    root: DEBUG
